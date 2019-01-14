@@ -129,7 +129,7 @@ const atomPackageInitialState = {
 };
 
 window.loadAtom = function(callback) {
-  const initializeApplicationWindow = require('./initialize-application-window');
+  const initializeApplicationWindow = require("../src/initialize-application-window");
 
   // Various things try to write to the BlobStore.
   const FileSystemBlobStore = require('./file-system-blob-store.js');
